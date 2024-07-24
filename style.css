@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    background-image: linear-gradient(grey, black);
+    background-size: 100px 1000px;
+}
+body{
+    margin: 0;
+}
+/*Intro*/
+
+.Intro {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    font-size:xx-large;
+    color: crimson;
+}
+
+/*Navegation*/
+
+nav {
+    overflow: hidden;    
+    background-color: black;
+    border-radius: 2px 2px 15px 15px;
+}
+.nave a{
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 1s;
+}
+a:hover {
+    background-color: grey;
+}
+/*main page/ columns*/
+.column {
+    float: left;
+    padding: 10px;
+}
+.column.side {
+    width: 25%;
+}
+.column.middle {
+    width: 50%;
+}
+p {
+    word-break: break-all;
+}
+/*Footer*/
+.footer {
+    float: left;
+    position: fixed;
+    bottom: 0;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
